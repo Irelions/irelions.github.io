@@ -1,0 +1,22 @@
+@media (min-width: 768px) and (max-width: 1119px){
+    .container {
+        min-width: 768px;
+    }
+
+    .card{
+        flex-direction: row;
+    }
+
+    .card--discription,
+    .navigation__image {
+        width: 50%;
+    }
+
+    .card__content {
+        height: 160px;
+    }
+
+    .navigation__image {
+        margin: 0 25px  ;
+    }
+}

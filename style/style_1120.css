@@ -1,0 +1,38 @@
+@media (min-width: 1120px) {
+    .container {
+        width: 1120px;
+    }
+
+    .header {
+        display: none;
+    }
+
+
+    .navigation__list {
+        flex-wrap: wrap;
+    }
+
+    .main__menu {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-right: 25px;
+    }
+
+    .main__header{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .main__application,
+    .main__status {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .card__content {
+        height: auto;
+    }
+}
