@@ -1,0 +1,126 @@
+ul, li, h2, p, body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a, address{
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
+}
+
+.mobile--menu {
+    position: absolute;
+    color: #1B1C21;
+    top: 0;
+    left: 0;
+    width: 320px;
+    max-height: 1024px;
+    font-family: TT Lakes, sans-serif;
+    box-shadow: -30px -30px 50px 20px #7E7E82;
+}
+
+.mobile--menu__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 24px;
+    margin-bottom: 24px;
+}
+
+.mobile--menu__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.mobile--menu__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.mobile--menu__vert--line {
+    height: 40px;
+    margin-right: 24px;
+    border-left: 4px solid #41F6D7;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+.mobile--menu__text {
+    text-align: left;
+    align-self: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+
+}
+
+.mobile--menu__navigation{
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile--menu__item{
+    margin-bottom: 24px;
+}
+
+.mobile--menu__content{
+    margin-bottom: 24px;
+}
+
+.mobile--menu__wrapper {
+    padding: 0 32px;
+}
+
+.mobile--menu__icons {
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.mobile--footer__email {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.mobile--footer__phone {
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+
+.mobile--footer__language {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 32px;
+}
+
+.language__item {
+    width: 24px;
+    height: 24px;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: left;
+}
+
+.language__active {
+    color: #7E7E82;
+}
+
+.mobile--footer__icon{
+    width: 40px;
+    height: 40px;
+}
+
+.mobile--footer__icon:hover {
+    opacity: 0.6;
+    transition-duration: 400ms;
+    transform: scale(1.1);
+}
