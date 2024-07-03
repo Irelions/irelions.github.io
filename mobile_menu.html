@@ -12,59 +12,64 @@
     <link rel="stylesheet" href="style/mobile_menu.css">
 </head>
 <body>
-<div class="mobile--menu">
-    <header class="mobile--menu__header ">
-        <div class="mobile--menu__left">
-            <a href="index.html"><img class="mobile--footer__icon" src="assets/img/mobile_menu_close.png" alt="Закрыть меню"></a>
+<aside class="mobile-menu">
+    <div class="mobile-menu__start">
+        <header class="mobile-menu__header">
+            <a href="index.html"><img class="mobile-footer__icon" src="assets/img/mobile_menu_close.png"
+                                      alt="Закрыть меню"></a>
             <a href="#"><img class="header__logo" src="assets/img/logo.png" alt="CPS"></a>
-        </div>
-        <a href="#"><img class="mobile--footer__icon" src="assets/img/mobile_menu_search.png" alt="Поиск"></a>
-    </header>
-    <main class="mobile--menu__content ">
-        <div class="mobile--menu__title">
-            <div class="mobile--menu__vert--line"></div>
-            <h1 class="mobile--menu__text">Ремонт техники</h1>
-        </div>
-        <nav class="mobile--menu__navigation mobile--menu__wrapper">
-            <ul>
-                <li class="mobile--menu__item">
-                    <a href="#">Услуги и сервисы</a>
-                </li>
-                <li class="mobile--menu__item">
-                    <a href="#">Корпоративным клиентам</a>
-                </li>
-                <li class="mobile--menu__item">
-                    <a href="#">Продавцам техники</a>
-                </li>
-                <li class="mobile--menu__item">
-                    <a href="#">Партнерам</a>
-                </li>
-                <li class="mobile--menu__item">
-                    <a href="#">Производителям</a>
-                </li>
-                <li class="mobile--menu__item">
-                    <a href="#">Наши сервисные центры</a>
-                </li>
-                <li class="mobile--menu__item">
-                    <a href="#">Контакты</a>
-                </li>
+            <a href="#"><img class="mobile-footer__icon" src="assets/img/mobile_menu_search.png" alt="Поиск"></a>
+        </header>
+            <nav class="mobile-menu__navigation mobile-menu__wrapper">
+                <ul>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link mobile-menu__active">Ремонт техники</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Услуги и сервисы</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Корпоративным клиентам</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Продавцам техники</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Партнерам</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Производителям</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Наши сервисные центры</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+    </div>
+    <div class="mobile-menu__end">
+        <footer class="mobile-menu__footer mobile-menu__wrapper">
+            <ul class="mobile-menu__icons">
+                <a href="#"><img class="mobile-footer__icon" src="assets/img/mobile_menu_phone.png"
+                                 alt="Заказать звонок"></a>
+                <a href="#"><img class="mobile-footer__icon" src="assets/img/mobile_menu_message.png"
+                                 alt="Отсправить сообщение"></a>
+                <a href="#"><img class="mobile-footer__icon" src="assets/img/mobile_menu_contacts.png"
+                                 alt="Контакты"></a>
             </ul>
-        </nav>
-    </main>
-    <footer class="mobile--footer mobile--menu__wrapper">
-        <ul class="mobile--menu__icons">
-            <a href="#"><img class="mobile--footer__icon" src="assets/img/mobile_menu_phone.png" alt="Заказать звонок"></a>
-            <a href="#"><img class="mobile--footer__icon" src="assets/img/mobile_menu_message.png" alt="Отсправить сообщение"></a>
-            <a href="#"><img class="mobile--footer__icon" src="assets/img/mobile_menu_contacts.png" alt="Контакты"></a>
-        </ul>
-        <address class="mobile--footer__email"><a href="#">mail@cps.com</a></address>
-        <address class="mobile--footer__phone"><a href="#" >8 800 890 8900</a></address>
-        <ul class="mobile--footer__language">
-            <li class="language__item language__active"><a href="#">ru</a></li>
-            <li class="language__item "><a href="#">en</a></li>
-            <li class="language__item"><a href="#">ch</a></li>
-        </ul>
-    </footer>
-</div>
+            <address class="mobile-footer__email"><a href="mailto:mail@cps.com"
+                                                     class="mobile-menu__link">mail@cps.com</a></address>
+            <address class="mobile-footer__phone"><a href="tel:8 800 890 8900" class="mobile-menu__link">8 800 890
+                8900</a></address>
+            <ul class="mobile-footer__language">
+                <li class="language__item language__active"><a href="#" class="">ru</a></li>
+                <li class="language__item "><a href="#" class="mobile-menu__link">en</a></li>
+                <li class="language__item"><a href="#" class="mobile-menu__link">ch</a></li>
+            </ul>
+        </footer>
+    </div>
+</aside>
 </body>
 </html>

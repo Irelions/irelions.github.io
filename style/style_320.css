@@ -1,18 +1,14 @@
-@media (max-width: 767px){
-    .container {
-        min-width: 320px;
-    }
+.container {
+    min-width: 320px;
+}
 
-    .header__phone,
-    .header__chat,
-    .header__profile,
-    .vert--line__first
-    {
-        display: none;
-    }
+.header__phone,
+.header__chat,
+.header__profile,
+.vert--line__first {
+    display: none;
+}
 
-    .card{
-        flex-direction: column;
-    }
-
+.card {
+    flex-direction: column;
 }

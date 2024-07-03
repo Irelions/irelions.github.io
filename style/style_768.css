@@ -1,9 +1,9 @@
-@media (min-width: 768px) and (max-width: 1119px){
+@media (min-width: 768px) {
     .container {
         min-width: 768px;
     }
 
-    .card{
+    .card {
         flex-direction: row;
     }
 
@@ -17,6 +17,6 @@
     }
 
     .navigation__image {
-        margin: 0 25px  ;
+        margin: 0 25px;
     }
 }
