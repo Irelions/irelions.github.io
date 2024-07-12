@@ -6,7 +6,7 @@ ul, li, h1, p, body, a{
 }
 
 .brend {
-    width: 320px;
+    min-width: 320px;
     margin: 0 auto;
     font-family: TT Lakes, sans-serif;
     color: #7E7E82;
@@ -129,7 +129,7 @@ ul, li, h1, p, body, a{
         display: none;
     }
     .brend {
-        min-width: 1120px;
+        width: 1120px;
     }
     .brend__footer {
         height: 56px;
